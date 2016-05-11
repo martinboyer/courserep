@@ -1,8 +1,13 @@
 #include <stdio.h>
 
+void hello()
+{
+  printf("Coucou les copains\n");
+}
+
 int main()
 {
-  printf("Coucou les copains");
+  hello();
   return 0;
 }
 
